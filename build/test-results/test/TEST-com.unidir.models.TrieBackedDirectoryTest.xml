@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.unidir.models.TrieBackedDirectoryTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-07-11T18:25:33" hostname="RAYKAN.local" time="0.13">
+  <properties/>
+  <testcase name="trieBackedDirectoryRegisterAndSearchTest_registersAndSearchMultipleUserContacts_givenFirstAddingAndThenSearchMultiUserContact()" classname="com.unidir.models.TrieBackedDirectoryTest" time="0.103"/>
+  <testcase name="trieBackedDirectoryRegisterAndSearchTest_registersAndSearchUserContacts_givenFirstAddingAndThenSearchUserContact()" classname="com.unidir.models.TrieBackedDirectoryTest" time="0.002"/>
+  <testcase name="trieBackedDirectoryRegisterAndSearchTest_registersAndSearchUserContactsWithIndexGetter_givenFirstAddingAndThenSearchUserContactWithIndexGetter()" classname="com.unidir.models.TrieBackedDirectoryTest" time="0.003"/>
+  <testcase name="trieBackedDirectoryTest_createsTrieBackedDirectoryWithCustomIndexGetter_usingDirectoryFactoryMethodWithIndexPropGetter()" classname="com.unidir.models.TrieBackedDirectoryTest" time="0.003"/>
+  <testcase name="trieBackedDirectoryTest_createsTrieBackedDirectory_usingDirectoryFactoryMethod()" classname="com.unidir.models.TrieBackedDirectoryTest" time="0.001"/>
+  <testcase name="trieBackedDirectoryDeletionTest_deletesAllNodesWithNoEntries_givenFirstAddingThenDeletingAndFinallySearchingUsers()" classname="com.unidir.models.TrieBackedDirectoryTest" time="0.012"/>
+  <system-out><![CDATA[23:55:33.760 [Test worker] INFO com.unidir.models.directory.beans.DirectoryFactory - Initializing tire backed directory
+23:55:33.781 [Test worker] INFO com.unidir.models.directory.beans.DirectoryFactory - Initializing tire backed directory
+23:55:33.792 [Test worker] INFO com.unidir.models.directory.beans.DirectoryFactory - Initializing tire backed directory
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
